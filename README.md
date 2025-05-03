@@ -21,3 +21,8 @@ In my case i used localhost with sendmail installed. You can scrap shodan for ma
     .
 ## Quit
     quit
+
+
+# Alternative
+Swiss Army Knife Smtp (Swaks)
+    swaks --to recipient@example.com --from sender@example.com --server smtp.example.com --header "Subject: Test HTML Email" --header "Content-Type: text/html" --body "<html><body><h1>Hello!</p><a href='https://example.com'>Visit</a></body></html>"
